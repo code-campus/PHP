@@ -11,26 +11,26 @@
 
 ## Les variables
 
-### Déclaration
+### Déclaration de variable
 
 ```php
 $varName; // Déclare la variable dans PHP
 $varName = "Hello PHP"; // Déclare la variable dans PHP et lui affecte une chaine de caractère
 ```
 
-### Utilisation
+### Utilisation de variable
 
 ```php
 echo $varName;
 ```
 
-### Vérification
+### Vérification de variable
 
 ```php
 isset($varName);
 ```
 
-### Desctruction
+### Desctruction de variable
 
 Deux façon de détruire une variable :
 
