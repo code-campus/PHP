@@ -1,12 +1,14 @@
 # PHP : Memo
 
 
+
 ## Les balises PHP
 
 ```php
 <?php /* code PHP */ ?>
 <?= "texte PHP" ?>
 ```
+
 
 
 ## Les variables
@@ -38,3 +40,48 @@ Deux façon de détruire une variable :
 unset($varName);
 $varName = null;
 ```
+
+
+
+## Les constantes
+
+### Déclaration de constante
+
+```php
+define("CONST_NAME", "Hello PHP");
+```
+
+### Utilisation de constante
+
+```php
+echo CONST_NAME;
+```
+
+### Vérification de constante
+
+```php
+defined("CONST_NAME");
+```
+
+
+
+## Les opérateurs
+
+### Les opérateurs d'affectation
+
+| Opérateur | Symbole | Utilisation | Description
+|:-|:-:|:-:|:-
+| Affectation | `=` | `$a = 42` | Affecte une valeur à une variable
+
+### Les opérateurs arithmétiques
+
+| Opérateur | Symbole | Utilisation | Description
+|:-|:-:|:-:|:-
+| Addition | `+` | `$a + $b`
+| Soustraction | `-` | `$a - $b`
+| Multiplication | `*` | `$a * $b`
+| Division | `/` | `$a / $b`
+| Identité | `+` | `+$a` | Convertit `$a` en Integer ou Float
+| Négation | `-` | `-$a` | Donne la valeur inverse de `$a`
+| Modulo | `%` | `$a % $b` | Retourne l'entier restant d'une division
+| Exponentiel | `**` | `$a ** $b` | Retourne l'exposant
